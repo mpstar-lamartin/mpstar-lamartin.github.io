@@ -31,12 +31,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/",
+            "https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/tree/main",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/",
+            "https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
