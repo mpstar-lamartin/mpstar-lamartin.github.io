@@ -11,7 +11,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "http://www.lamartinieremonplaisir.org/images/favlogo/logo_Min.jpg",
+  favicon: "img/logo.png",
 
   organizationName: "mpstar-lamartin",
   projectName: "mpstar-lamartin.github.io",
@@ -52,7 +52,7 @@ const config = {
         title: "MP*",
         logo: {
           alt: "MP*",
-          src: "http://www.lamartinieremonplaisir.org/images/favlogo/logo_Min.jpg",
+          src: "img/logo.png",
         },
         items: [
           {
