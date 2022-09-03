@@ -1,43 +1,43 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MP* au lycée La Martinière Monplaisir',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'http://www.lamartinieremonplaisir.org/images/favlogo/logo_Min.jpg',
+  title: "MP* au lycée La Martinière Monplaisir",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "http://www.lamartinieremonplaisir.org/images/favlogo/logo_Min.jpg",
 
-  organizationName: 'mpstar-lamartin',
-  projectName: 'mpstar-lamartin.github.io',
+  organizationName: "mpstar-lamartin",
+  projectName: "mpstar-lamartin.github.io",
 
   i18n: {
-    defaultLocale: 'fr',
-    locales: ['fr'],
+    defaultLocale: "fr",
+    locales: ["fr"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            'https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/',
+            "https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/',
+            "https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -47,70 +47,42 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: "MP*",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "MP*",
+          src: "http://www.lamartinieremonplaisir.org/images/favlogo/logo_Min.jpg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            type: "doc",
+            docId: "math/intro",
+            position: "left",
+            label: "Mathématiques",
+            sidebarId: "math",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: "doc",
+            docId: "physique/intro",
+            position: "left",
+            label: "Physique",
+          },
+          {
+            href: "https://cpge-itc.github.io/itc2",
+            position: "left",
+            label: "Informatique commune",
+          },
+          {
+            href: "https://mp-info.github.io",
+            position: "left",
+            label: "Informatique option",
+          },
+          { to: "/blog", label: "Actualités", position: "right" },
+          {
+            href: "https://github.com/mpstar-lamartin/mpstar-lamartin.github.io",
+            label: "GitHub",
+            position: "right",
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
