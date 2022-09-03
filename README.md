@@ -10,9 +10,11 @@ Dans [docs/matiere](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io
 Chaque sous-dossier correspond à une catégorie (Cours, Exercice...).  
 Les fichiers doivent être écrits en markdown : [guide pour inclure image, titre, table...](https://www.markdownguide.org/basic-syntax).
 
-Add file > New file pour créer un nouveau fichier  
+Add file > New file pour créer un nouveau fichier dans le dossier actuel.  
 Le "crayon" pour éditer un fichier.  
 Puis cliquer sur "commit changes" tout en bas.
+
+Vous pouvez aussi utiliser [ce lien](https://github.dev/mpstar-lamartin/mpstar-lamartin.github.io) pour éditer le site dans un éditeur.
 
 ## Génération du site
 
