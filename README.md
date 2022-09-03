@@ -1,21 +1,22 @@
 # Site de la MP* du lycée La Martinière Monplaisir
 
-## [Documentation officielle](https://docusaurus.io/docs)
-
-Ci-dessous, un résumé des fonctionnalités les plus utiles.
-
 ## Modifier les paramètres généraux (titre du site, logo...)
 
 Dans [docusaurus.config.js](./docusaurus.config.js).
 
 ## Ajouter un document pour votre matière
 
-Dans docs/<matiere> (dossier à créer si besoin).  
+Dans [docs/matiere](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/tree/main/docs) (dossier à créer si besoin).  
 Chaque sous-dossier correspond à une catégorie (Cours, Exercice...).  
 Les fichiers doivent être écrits en markdown : [guide pour inclure image, titre, table...](https://www.markdownguide.org/basic-syntax).
 
 Add file > New file pour créer un nouveau fichier  
-Le "crayon" pour éditer un fichier.
+Le "crayon" pour éditer un fichier.  
+Puis cliquer sur "commit changes" tout en bas.
+
+## Génération du site
+
+Lorsque vous effectuez une modification, le site est automatique regénéré, ce qui peut prendre quelques minutes. Si une croix rouge apparaît, c'est qu'il y a eu une erreur (poster un message sur [issues](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/issues) ou me demander directement).
 
 ### Inclure un pdf avec preview
 
@@ -27,5 +28,6 @@ Voir [un exemple](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/t
 
 ## Blog (actualité de la classe)
 
-Créer un fichier dans [blog/](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/tree/main/blog), au format yyyy-mm-dd-titre.md. 
+Créer un fichier dans [blog/](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/tree/main/blog), au format yyyy-mm-dd-titre.md.  
 [Exemple](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/blob/16f01758462c8d19ad770f1618ec47c285bf3f8c/blog/2022-09-01-rentree.mdx)
+
