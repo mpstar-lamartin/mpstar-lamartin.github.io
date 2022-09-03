@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mpstar-lamartin.github.io/blog</id>
+    <title>MP* au lycée La Martinière Monplaisir Blog</title>
+    <updated>2022-09-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mpstar-lamartin.github.io/blog"/>
+    <subtitle>MP* au lycée La Martinière Monplaisir Blog</subtitle>
+    <icon>https://mpstar-lamartin.github.io/http://www.lamartinieremonplaisir.org/images/favlogo/logo_Min.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[Rentrée]]></title>
+        <id>/2022/09/01/rentree</id>
+        <link href="https://mpstar-lamartin.github.io/blog/2022/09/01/rentree"/>
+        <updated>2022-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bienvenue aux nouveaux MP\* et bon courage pour l'année 2022-2023 !]]></summary>
+        <content type="html"><![CDATA[<p>Bienvenue aux nouveaux MP<!-- -->*<!-- --> et bon courage pour l'année 2022-2023 !</p>]]></content>
+        <author>
+            <name>Quentin Fortier</name>
+            <uri>https://fortierq.github.io/</uri>
+        </author>
+        <category label="administratif" term="administratif"/>
+    </entry>
+</feed>

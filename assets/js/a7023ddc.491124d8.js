@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmpstar_lamartin=self.webpackChunkmpstar_lamartin||[]).push([[713],{3457:a=>{a.exports=JSON.parse('[{"label":"administratif","permalink":"/blog/tags/administratif","count":1}]')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmpstar_lamartin=self.webpackChunkmpstar_lamartin||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Rentr\xe9e","permalink":"/blog/2022/09/01/rentree"}]}')}}]);
