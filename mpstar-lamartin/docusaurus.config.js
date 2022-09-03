@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "MP* au lycée La Martinière Monplaisir",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://mpstar-lamartin.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -15,6 +15,8 @@ const config = {
 
   organizationName: "mpstar-lamartin",
   projectName: "mpstar-lamartin.github.io",
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: "fr",
