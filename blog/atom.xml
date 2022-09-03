@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mpstar-lamartin.github.io/blog"/>
     <subtitle>MP* au lycée La Martinière Monplaisir Blog</subtitle>
-    <icon>https://mpstar-lamartin.github.io/http://www.lamartinieremonplaisir.org/images/favlogo/logo_Min.jpg</icon>
+    <icon>https://mpstar-lamartin.github.io/img/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Rentrée]]></title>
         <id>/2022/09/01/rentree</id>
