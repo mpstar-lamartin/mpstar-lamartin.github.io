@@ -73,6 +73,18 @@ const config = {
             label: "Physique",
           },
           {
+            type: "doc",
+            docId: "anglais/intro",
+            position: "left",
+            label: "Anglais",
+          },
+          {
+            type: "doc",
+            docId: "tipe/references",
+            position: "left",
+            label: "TIPE",
+          },
+          {
             href: "https://cpge-itc.github.io/itc2",
             position: "left",
             label: "Informatique commune",
