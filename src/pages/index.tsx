@@ -30,11 +30,14 @@ export default function Home(): JSX.Element {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            description="Description will go into a meta tag in <head />"
         >
             <HomepageHeader />
             <main><br></br>
-                <center><h1>Ici on peut mettre Edt, colloscope...</h1></center>
+                <center>
+                    <details><summary>Emploi du temps</summary><iframe src={require('./edt.pdf').default} width="100%" height="900"></iframe></details>
+                    <br></br>
+                    <details><summary>Colloscope</summary><iframe src={require('./edt.pdf').default} width="100%" height="900"></iframe></details>
+                </center>
             </main>
         </Layout>
     );
