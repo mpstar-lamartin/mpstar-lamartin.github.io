@@ -18,13 +18,15 @@ Pour que les fichiers/dossiers apparaissent dans l'ordre que vous voulez, vous p
 
 Vous pouvez aussi utiliser [ce lien](https://github.dev/mpstar-lamartin/mpstar-lamartin.github.io) pour éditer le site dans un éditeur.
 
+Pour upload un document depuis votre ordinateur, cliquer sur Add files > Upload files.
+
 ## Génération du site
 
 Lorsque vous effectuez une modification, le site est automatique regénéré, ce qui peut prendre quelques minutes. Si une croix rouge apparaît, c'est qu'il y a eu une erreur (poster un message sur [issues](https://github.com/mpstar-lamartin/mpstar-lamartin.github.io/issues) ou me demander directement).
 
 ### Inclure un pdf avec preview
 
-Pour inclure un pdf dans un fichier markdown, ajouter votre fichier.pdf dans le même dossier et (en changeant éventuellement les tailles) : 
+Pour inclure un pdf dans un fichier markdown, ajouter votre fichier.pdf (Add files > Upload files) dans le même dossier et, dans un fichier markdown, écrire ceci pour l'afficher : 
 ```
  <iframe src={require('./fichier.pdf').default} width="100%" height="1000"></iframe> 
 ```
