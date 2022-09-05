@@ -36,6 +36,8 @@ export default function Home(): JSX.Element {
                 <center>
                     <details><summary>Emploi du temps</summary><iframe src={require('./edt.pdf').default} width="100%" height="900"></iframe></details>
                     <br></br>
+                    <details><summary>Épreuves en temps limité</summary><iframe src={require('./dtl.pdf').default} width="100%" height="900"></iframe></details>
+                    <br></br>
                     <details><summary>Colloscope</summary><iframe src={require('./edt.pdf').default} width="100%" height="900"></iframe></details>
                 </center>
             </main>
