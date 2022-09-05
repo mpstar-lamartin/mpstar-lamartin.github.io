@@ -87,12 +87,12 @@ const config = {
           {
             href: "https://cpge-itc.github.io/itc2",
             position: "left",
-            label: "Informatique commune",
+            label: "Info commune",
           },
           {
             href: "https://mp-info.github.io",
             position: "left",
-            label: "Informatique option",
+            label: "Info option",
           },
           { to: "/blog", label: "Actualités", position: "right" },
           {
